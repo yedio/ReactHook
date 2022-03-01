@@ -2,9 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 export default function Main() {
-  return <Wrapper>main</Wrapper>;
+  return <Wrapper>MAIN</Wrapper>;
 }
 
 const Wrapper = styled.div`
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 `;
